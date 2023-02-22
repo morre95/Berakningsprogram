@@ -21,8 +21,14 @@
                 }
                 else if (command == "hjälp")
                 {
-                    Console.WriteLine($"Tyvärr ej implementerat!");
+                    Console.WriteLine($"plus - addera två tal");
+                    Console.WriteLine($"minus - subtrahera två tal");
+                    Console.WriteLine($"gånger - multiplicera två tal");
+                    Console.WriteLine($"delat - dividera två tal");
+                    Console.WriteLine($"kvadrat - multiplicera tal med sig självt");
+                    Console.WriteLine($"sluta - avsluta programmet");
                 }
+
                 else if (command == "sluta")
                 {
                     Console.WriteLine("Du vill avsluta alltså?");
@@ -35,6 +41,12 @@
                     Console.Write("tal 2: ");
                     double Y = double.Parse(Console.ReadLine());
                     Console.WriteLine($"{X} * {Y} = {X * Y}");
+                }
+                else if (command == "kvadrat")
+                {
+                    Console.Write("tal 1: ");
+                    double X = double.Parse(Console.ReadLine());
+                    Console.WriteLine($"{X}^2 = {X * X}");
                 }
                 else
                 {
