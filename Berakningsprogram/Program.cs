@@ -28,7 +28,7 @@
                     Console.WriteLine($"kvadrat - multiplicera tal med sig självt");
                     Console.WriteLine($"sluta - avsluta programmet");
                 }
-                else if (command == "division")
+                else if (command == "delat")
                 {
                     Console.Write("tal 1: ");
                     double X = double.Parse(Console.ReadLine());
